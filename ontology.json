@@ -1,0 +1,1120 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#JalapenoPepperTopping"
+  } ]
+}, {
+  "@id" : "_:genid103",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#AnchovyTopping"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#PrawnTopping"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#TunaTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid107",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#CaperTopping"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#MushroomTopping"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#OliveTopping"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#OnionTopping"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#PepperTopping"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#TomatoTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "_:genid12"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping"
+  } ]
+}, {
+  "@id" : "_:genid114",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#GreenPepperTopping"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#JalapenoPepperTopping"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#RedPepperTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid118",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#HamTopping"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#PepperoniTopping"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#SalamiTopping"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#SpicyBeefTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#MozzarellaTopping"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#PepperoniTopping"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#TomatoTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid123",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#Hot"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#Medium"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#Mild"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid127",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ ]
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#Pizza"
+    }, {
+      "@id" : "_:genid18"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#CheeseTopping"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#MozzarellaTopping"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#America"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#England"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#France"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#Germany"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#Italy"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#CheeseTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "4"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#Pizza"
+    }, {
+      "@id" : "_:genid29"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasCalorificContentValue"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid30"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#PepperoniTopping"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#onDatatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2002/07/owl#withRestrictions" : [ {
+    "@list" : [ {
+      "@id" : "_:genid32"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "http://www.w3.org/2001/XMLSchema#minInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "400"
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasAddOn"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#Coke"
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "_:genid36"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping"
+  } ]
+}, {
+  "@id" : "_:genid36",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#CheeseTopping"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#MozzarellaTopping"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#OnionTopping"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#TomatoTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#TomatoTopping"
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasCalorificContentValue"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasCost"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasSpiciness"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#Hot"
+  } ]
+}, {
+  "@id" : "_:genid44",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#Pizza"
+    }, {
+      "@id" : "_:genid46"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid46",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasCalorificContentValue"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid47"
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#onDatatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2002/07/owl#withRestrictions" : [ {
+    "@list" : [ {
+      "@id" : "_:genid49"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "http://www.w3.org/2001/XMLSchema#maxExclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "400"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "_:genid6"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping"
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "_:genid52"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping"
+  } ]
+}, {
+  "@id" : "_:genid52",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#MozzarellaTopping"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#TomatoTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid55",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#Italy"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasCountryOfOrigin"
+  } ]
+}, {
+  "@id" : "_:genid56",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#Pizza"
+    }, {
+      "@id" : "_:genid58"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid58",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#VegetarianPizza"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#JalapenoPepperTopping"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#MozzarellaTopping"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#PepperoniTopping"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#TomatoTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid60",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "@id" : "_:genid64"
+    }, {
+      "@id" : "_:genid62"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid62",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "3"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping"
+  } ]
+}, {
+  "@id" : "_:genid64",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasBase"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#PizzaBase"
+  } ]
+}, {
+  "@id" : "_:genid66",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasCalorificContentValue"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "_:genid67",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#MozzarellaTopping"
+  } ]
+}, {
+  "@id" : "_:genid68",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#OliveTopping"
+  } ]
+}, {
+  "@id" : "_:genid69",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#ParmezanTopping"
+  } ]
+}, {
+  "@id" : "_:genid70",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#TomatoTopping"
+  } ]
+}, {
+  "@id" : "_:genid71",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "_:genid72"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping"
+  } ]
+}, {
+  "@id" : "_:genid72",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#MozzarellaTopping"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#OliveTopping"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#ParmezanTopping"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#TomatoTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid77",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#Hot"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#Medium"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#Mild"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid81",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#Pizza"
+    }, {
+      "@id" : "_:genid83"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid83",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid84"
+  } ]
+}, {
+  "@id" : "_:genid84",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#PizzaTopping"
+    }, {
+      "@id" : "_:genid86"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid86",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasSpiciness"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#Hot"
+  } ]
+}, {
+  "@id" : "_:genid89",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#MozzarellaTopping"
+  } ]
+}, {
+  "@id" : "_:genid90",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#Pizza"
+    }, {
+      "@id" : "_:genid92"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid92",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "_:genid93"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping"
+  } ]
+}, {
+  "@id" : "_:genid93",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#CheeseTopping"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#VegetableTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid97",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#AmericanHotPizza"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#AmericanaPizza"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#JairoPizza"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#MargheritaPizza"
+    }, {
+      "@id" : "http://www.pizza.com/ontologies/pizza.owl#SohoPizza"
+    } ]
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@language" : "en",
+    "@value" : "PizzaTutorial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A pizza ontology that describes various pizzasbased on their toppings."
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#Add",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#America",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.pizza.com/ontologies/pizza.owl#Country" ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#AmericanHotPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A pizza that only has Mozarella andTomato toppings"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#NamedPizza"
+  }, {
+    "@id" : "_:genid1"
+  }, {
+    "@id" : "_:genid2"
+  }, {
+    "@id" : "_:genid3"
+  }, {
+    "@id" : "_:genid4"
+  }, {
+    "@id" : "_:genid5"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#AmericanaPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A pizza that only has Mozarella andTomato toppings"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#NamedPizza"
+  }, {
+    "@id" : "_:genid11"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#AnchovyTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#SeafoodTopping"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#Apple",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.pizza.com/ontologies/pizza.owl#Juice" ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#CaperTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#VegetableTopping"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#CheeseTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#PizzaTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#MeatTopping"
+  }, {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#SeafoodTopping"
+  }, {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#VegetableTopping"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#CheesyPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid16"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#CocaCola",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.pizza.com/ontologies/pizza.owl#Coke" ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#Coke",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#Drink"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid20"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#DeepPanBase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#PizzaBase"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#ThinAndCrispyBase"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#Drink",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#Add"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#Ecuador",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.pizza.com/ontologies/pizza.owl#Country", "http://www.pizza.com/ontologies/pizza.owl#JairoPizza" ],
+  "http://www.pizza.com/ontologies/pizza.owl#hasCost" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "6.5"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#England",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.pizza.com/ontologies/pizza.owl#Country" ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#Example-Jairo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.pizza.com/ontologies/pizza.owl#JairoPizza", "http://www.pizza.com/ontologies/pizza.owl#LowCaloriePizza" ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#Example-Margherita",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.pizza.com/ontologies/pizza.owl#MargheritaPizza" ],
+  "http://www.pizza.com/ontologies/pizza.owl#hasCalorificContentValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "263"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#Fanta",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.pizza.com/ontologies/pizza.owl#Coke" ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#FourCheesePizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#Pizza"
+  }, {
+    "@id" : "_:genid26"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#France",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.pizza.com/ontologies/pizza.owl#Country" ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#Germany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.pizza.com/ontologies/pizza.owl#Country" ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#GreenPepperTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#PepperTopping"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#HamTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#MeatTopping"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#HighCaloriePizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid27"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#Hot",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#SpicinessValuePartition"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#Italy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.pizza.com/ontologies/pizza.owl#Country" ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#JairoPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Personalizated type of pizza"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#NamedPizza"
+  }, {
+    "@id" : "_:genid34"
+  }, {
+    "@id" : "_:genid35"
+  }, {
+    "@id" : "_:genid41"
+  }, {
+    "@id" : "_:genid42"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#JalapenoPepperTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#PepperTopping"
+  }, {
+    "@id" : "_:genid43"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#Juice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#Drink"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#LowCaloriePizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid44"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#MargheritaPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A pizza that only has Mozarella andTomato toppings"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#NamedPizza"
+  }, {
+    "@id" : "_:genid51"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#MeatTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#PizzaTopping"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#Medium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#SpicinessValuePartition"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#Mild",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#SpicinessValuePartition"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#MozzarellaTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#CheeseTopping"
+  }, {
+    "@id" : "_:genid55"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#ParmezanTopping"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#MushroomTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#VegetableTopping"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#NamedPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#Pizza"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#NonVegetarianPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#VegetarianPizza"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid56"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#OliveTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#VegetableTopping"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#OnionTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#VegetableTopping"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#Orange",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.pizza.com/ontologies/pizza.owl#Juice" ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#ParmezanTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#CheeseTopping"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#PepperTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#VegetableTopping"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#PepperoniTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#MeatTopping"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#Pizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid66"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid60"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#PizzaBase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#PizzaTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#PrawnTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#SeafoodTopping"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#RedPepperTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#PepperTopping"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#SalamiTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#MeatTopping"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#SeafoodTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#PizzaTopping"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#SohoPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A pizza that only has Mozarella andTomato toppings"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#NamedPizza"
+  }, {
+    "@id" : "_:genid67"
+  }, {
+    "@id" : "_:genid68"
+  }, {
+    "@id" : "_:genid69"
+  }, {
+    "@id" : "_:genid70"
+  }, {
+    "@id" : "_:genid71"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#SpicinessValuePartition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#ValuePartition"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid77"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#SpicyBeefTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#MeatTopping"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#SpicyPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid81"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#ThinAndCrispyBase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#PizzaBase"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#TomatoTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#VegetableTopping"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#TunaTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#SeafoodTopping"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#UnclosedPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#NamedPizza"
+  }, {
+    "@id" : "_:genid89"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#ValuePartition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#VegetableTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#PizzaTopping"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#VegetarianPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid90"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasAddOn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#Add"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#Drink"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasBase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#Pizza"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#PizzaBase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasIngredient"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#isBaseOf."
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasCalorificContentValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasCost",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasCountryOfOrigin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasIngredient",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#isIngredientOf"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasSpiciness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#SpicinessValuePartition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#Pizza"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#PizzaTopping"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#hasIngredient"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#isToppingOf"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#isBaseOf.",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#PizzaBase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#Pizza"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#isIngredientOf"
+  } ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#isIngredientOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ]
+}, {
+  "@id" : "http://www.pizza.com/ontologies/pizza.owl#isToppingOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#PizzaTopping"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#Pizza"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.pizza.com/ontologies/pizza.owl#isIngredientOf"
+  } ]
+} ]
